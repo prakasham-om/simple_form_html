@@ -4,71 +4,67 @@
         <style>
           .form_table{
                 width: 550px;
-                height: 550px;
+                height: 300px;
     
-                margin: 15rem;
-                
+                margin: 20rem;
+                margin-top: 2rem;
+                position: fixed;
           }  
             .form_format{
                 
                 display: flex;
                 justify-content: space-between;
+            
                
             }
         </style>
     </head>
     <body>
+        
         <form>
-            <div class="form_table">
-            <div class="form_format">
-                <div>
-                    <lebel>Name</lebel>
-                    <br>
-                    <input type="text"><br><br>
-                </div>
-                <div>
-                    <lebel>Email</lebel><br>
-                    <input type="email"><br><br>
-                </div>
-                
-                <div>
-                    <lebel>Phone</lebel><br>
-                    <input type="number"><br><br>
-                </div>
-            </div>
-
+            <fieldset class="form_table">
+                <legend>Send Us Email</legend>
+         
+            <div >
                 <div class="form_format">
                     <div>
-                        <lebel>Subject</lebel>
-                        
-                        <br>
-                        <input type="text" style="width: 360px;">
+                        <lebel>Name</lebel> <br>
+                        <input type="text"><br><br>
                     </div>
-                    <div >
-                       <lebel>Services</lebel><br>
-                       <select style="width: 170px; text-align: center;">
-                        <option>--selsect One--</option>
-                        <option>Android App</option>
-                        <option>Web App</option>
-                        <option>WebSite</option>
-                       </select>
+                    <div>
+                        <lebel>Email</lebel><br>
+                        <input type="email"><br><br>
+                    </div>
+                    <div>
+                        <lebel>Phone</lebel><br>
+                        <input type="number"><br><br>
                     </div>
                 </div>
-                <br>
-                <label>Message</label>
-                <br>
-                <textarea style="width: 550px;height: 80px;"></textarea>
-                <br>
-                <br>
-                <input type="submit" value="Submit Comment"/>
-
-
-           
-            </div>
-
-            
-            
-            
+    
+                    <div class="form_format">
+                        <div>
+                            <lebel>Subject</lebel><br>
+                            <input type="text" style="width: 360px;">
+                        </div>
+                        <div >
+                           <lebel>Services</lebel><br>
+                           <select style="width: 170px; text-align: center;">
+                            <option>--selsect One--</option>
+                            <option>Android App</option>
+                            <option>Web App</option>
+                            <option>WebSite</option>
+                           </select>
+                        </div>
+                    </div>
+                    <br>
+                    <label>Message</label>
+                    <br>
+                    <textarea style="width: 550px;height: 80px;"></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit Comment"/>
+                </div>
+            </fieldset> 
         </form>
     </body>
 </html>
