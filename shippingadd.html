@@ -1,0 +1,77 @@
+<htm>
+    <head>
+        <title>Shipping Address</title>   
+        <style>
+            .round{
+                width: 18px;
+                height: 18px;
+                border-radius: 50%;
+                border: 1px solid black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: bold;
+                margin-left: 5px;
+            }
+            .sizeof_box{
+                width: 250px;
+                margin-left: 24px;
+            }
+            .lebl_space{
+                margin-left: 41px;
+            }
+        </style>     
+    </head>
+    <body>
+        <form>
+            <h2>Shipping Address</h2>
+            <hr/>
+            <div style="display: flex;">
+            <label>Phone Number</label>
+            <input type="text" style="width: 220px;margin-left: 35px;"><div class="round" >&#x3f; </div>
+        </div>
+        <br/>
+            <label class="lebl_space" >Company</label> 
+            <input type="text" class="sizeof_box">
+            <br/>
+            <br/>
+            &nbsp<label class="lebl_space">Country</label>&nbsp
+            <select class="sizeof_box">
+                <option>Australia</option>
+                <option>India</option>
+                <option>USA</option>
+                <option>UK</option>
+            </select><br/><br/>
+            &nbsp<label>Address Finder</label> 
+            <input type="text" class="sizeof_box"
+             placeholder="Victoria Street,Richmond VIC,Australia">
+            <br/>
+            <br/>
+           &nbsp <label>Street Address</label> 
+            <input type="text" class="sizeof_box"
+              placeholder="Victoria Street">
+            <br/>
+            <br/>
+            <input type="text" style="margin-left: 127px;width: 250px;">
+            <br>
+            <br>
+            <label class="lebl_space">Suburb</label>&nbsp;&nbsp;&nbsp;
+            <input type="text" class="sizeof_box"
+            placeholder="Richmond">
+            <br/>
+            <br/>
+            <label>Zip/Postal Code</label> 
+            <input type="number" class="sizeof_box"
+             placeholder="3121">
+            <br/>
+            <br/>
+            <input type="checkbox"> Save in address book
+            <hr/>
+            <input type="reset" value="CANCEL">
+            <input type="submit" value="SAVE ADDRESS">
+            
+         </form>
+
+
+    </body>
+</htm>
